@@ -1,16 +1,19 @@
-body 
-{
-    background: rgb(6,62,107);
-    background: linear-gradient(90deg, rgba(6,62,107,1) 8%, rgba(9,82,121,1) 37%, rgba(0,200,255,1) 67%);
+body {
+    background: rgb(0, 227, 137);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 227, 137, 1) 0%,
+      rgba(0, 216, 228, 1) 50%,
+      rgba(0, 90, 232, 1) 100%
+    );
     margin-top: 0px;
     margin-left: 0px;
-}
-header 
-{
+  }
+  header {
     size: 36px;
     margin-left: 400px;
-}
-nav 
-{
+  }
+  nav {
     margin-left: 100px;
-}
+  }
+  
