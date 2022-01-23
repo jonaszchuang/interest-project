@@ -1,14 +1,70 @@
+body, html{
+  height: 100%;
+}
 body {
-    background: rgb(0,227,167);
-    background: linear-gradient(90deg, rgba(0,227,167,1) 0%, rgba(0,228,225,1) 26%, rgba(0,121,232,1) 100%);
-    margin-top: 0px;
-    margin-left: 0px;
+  background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80); /* The image used for background*/
+  height: 100%;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  font-family: "Syne", sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-container {
+  text-align: center;
+  width: 100%;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  min-width: 50% !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
-  header {
-    size: 36px;
-    margin-left: 400px;
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
   }
-  nav {
-    margin-left: 100px;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
   }
-  
+
+  .link {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+header {
+  size: 36px;
+  margin-left: 400px;
+}
+nav {
+  size: 24px;
+  margin-left: 100px;
+  color: white;
+}
